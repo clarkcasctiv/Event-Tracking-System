@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Event Tracking</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<html lang="en-US">
+			
+      	<link rel="stylesheet" href="css/flatlybootstrap.css">
+		<style type="text/css">
+			.vertical-menu {
+    width: 200px; /* Set a width if you like */
+}
+
+.vertical-menu a {
+    background-color: #eee; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+    background-color: #2c3e50; /* Add a green color to the "active/current" link */
+    color: white;
+}
+		</style>
+	</head>
+<body>
+	<nav class="navbar navbar-default ">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">EventByte</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="">Latest Events</a></li>
+        <li><a href="">Popular Events <span class="sr-only">(current)</span></a></li>
+        
+        <li><a href="">Contact Us</a></li>
+       </ul>
+     
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Hello User <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Sign Up</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class="col-md-3">
+<div class="vertical-menu">
+  <a href="#" class="active">Home</a>
+  <a href="#">Profile</a>	
+  <a href="#">Edit Info</a>
+  <a href="#">Following</a>
+  <a href="#">Followers</a>
+  <a href="#">Create Event</a>
+
+</div>
+</div>
+<div class="col-md-9">
+	<h1>View Recommended Events</h1>
+</div>
+
+</body>
+</html>

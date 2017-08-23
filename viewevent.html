@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en-US">
+	<title>View Event Details</title>
+<link rel="stylesheet" href="css/flatlybootstrap.css">
+<style type="text/css">
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+	margin:0px;
+	padding: 0px;
+	border: 2px solid black;}
+
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+</style>
+<script type="text/javascript" src="js/jquery.min.js">	</script>
+<script type="text/javascript">
+$(document).ready(function(){
+    $("p").click(function(){
+        $(this).hide();
+    });
+});
+	
+</script>
+</head>
+<body>
+<div class="container">
+	<div class="col-md-6 col-md-offset-3">	
+		<h1 style="font-family: Supercell-Magic"> Display Event Details </h1>
+		
+		<div class="container col-md-12">
+		<label>Event Name</label>	
+		<div><h3 class="form-control"> Futsal Event </h3>
+		<label>Organizer</label>	
+		<h3 class="form-control"> Mate's Futsal </h3>
+		<label >Email</label>
+		<h3 class="form-control">asd@gmail.com</h3>
+		<label>Contact Info</label>
+		<h3 class="form-control">0398209384023</h3>
+		<label>Address</label>
+		<h3 class="form-control">Kathmandu</h3>
+		<label>Event Type</label>
+		<h3 class="form-control">Private</h3>
+		<label>Description</label>
+		<h3 class="form-control">Maasd,asdklale</h3>
+		<label>Event Location</label>
+		
+		<div class="card"><img src="images/Koala.jpg" alt="location" height="500px" width="500px" ;>
+		</div>
+
+
+		<button class="btn btn-primary"> Okay!</button>	
+		</div>
+	</div>	
+</div>	
+</body>
+</html>
